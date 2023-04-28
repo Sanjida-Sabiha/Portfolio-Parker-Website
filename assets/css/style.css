@@ -1,0 +1,490 @@
+/*
+    Template Name: Portfolio - Parker
+    Author - Sanjida
+    Description: 
+    Version: 1.0
+
+    Index
+    ====
+    01. Reset CSS
+    02. Header Area
+    03. Banner Area
+    04. About Area
+    05. Services Area
+    06. Resume Area
+    07. Project Area
+    08. Contact-Area
+    09. Footer Area
+*/
+
+/* 01. Reset CSS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+body{
+    font-family: 'Lexend', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.link{
+    border: 1px solid transparent;
+    background-color: #ff9a00;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.link:hover{
+    border-color: #ff9a00;
+    color: #ff9a00;
+    background-color: #2e2e2e;
+    font-weight: 600;
+}
+
+/* 02. Header Area */
+.header-area {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #1f1f1f;
+}
+.head {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+    padding: 20px 0 10px;
+    align-items: center;
+}
+.head a {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+}
+.logo {}
+.logo a {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+.menu{}
+.menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 0;
+}
+.menu ul li {
+    padding-left: 30px;
+}
+.menu ul li a {
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .6s;
+}
+.menu ul li a:hover{
+    color: #ff9a00;
+}
+/* 03. Banner Area */
+.banner-area {
+    background-color: #1f1f1f;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 145px 0 0 0;
+    margin: 0 20px;
+}
+.banner-info {
+    flex-basis: 515px;
+}
+.banner-info h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 10px;
+}
+.banner-info h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    color: white;
+}
+.banner-info span {
+    padding-left: 23px;
+    color: #ff9a00;
+}
+.banner-info h3 {
+    font-size: 18px;
+    padding-top: 9px;
+    color: white;
+    text-transform: capitalize;
+}
+.banner-info p {
+    font-size: 17px;
+    line-height: 23px;
+    padding-top: 14px;
+    color: white;
+    padding-bottom: 26px;
+}
+.banner-info a{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.img{
+    flex-basis: 400px;
+}
+.img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 12px;
+    background-color: #ff9a00;
+    vertical-align: middle;
+}
+
+/* 04. About Area */
+.about-area {
+    background-color: #272727;
+}
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.about-content {
+    flex-basis: 710px;
+}
+.about-content h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #ff9a00;
+}
+.about-content p{
+    font-size: 16px;
+    line-height: 23px;
+    color: white;
+    padding-top: 18px;
+}
+.about-me {
+    flex-basis: 300px;
+    margin-right: 75px;
+}
+.about-me ul{}
+.about-me ul li {
+    padding: 14px 0;
+    color: white;
+    font-size: 17px;
+    text-transform: capitalize;
+    border-bottom: 1px dotted white;
+}
+.about-me ul li span{
+    text-transform: lowercase;
+}
+.about-me ul li:last-child{
+    border-bottom: none;
+}
+
+/* 05. Services Area */
+.services-area{
+    background-color: #1f1f1f;
+}
+.section-info {
+}
+.section-info h1 {
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+}
+.section-info p{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+}
+.services {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px 20px 0;
+}
+.single-service {
+    flex-basis: 360px;
+    border: 1px solid transparent;
+    background-color: #272727;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 2px;
+    transition: .3s;
+}
+.single-service:hover{
+    border-color: #ff9a00;
+}
+.single-service i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 135px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: #ff9a00;
+    color: #2e2e2e;
+}
+.single-service h2 {
+    text-align: center;
+    padding-top: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 23px;
+}
+.single-service p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 23px;
+    padding-top: 14px;
+    color: white;
+}
+
+/* 06. Resume Area */
+.resume-area{
+    background-color: #272727;
+}
+.resume {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 35px 0 0;
+}
+.single-resume {
+    flex-basis: 555px;
+    padding: 30px;
+    border: 1px solid transparent;
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    margin: 15px;
+    transition: .3s;
+}
+.single-resume:hover{
+    border-color: #ff9a00;
+}
+.single-resume h4 {
+    color: white;
+    font-size: 15px;
+}
+.single-resume h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 11px;
+    color: #ff9a00;
+}
+.single-resume h3 {
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.single-resume p {
+    padding-top: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+/* 07. Project Area */
+.project-area{
+    background-color: #1f1f1f;
+}
+.project{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+.single-project {
+    flex-basis: 375px;
+    position: relative;
+    margin-top: 20px;
+}
+.single-project img{
+    width: 100%;
+    vertical-align: middle;
+}
+.info {
+    position: absolute;
+    content: "";
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    background-color: #2e2e2e;
+    color: white;
+    opacity: .85;
+    transition: .8s;
+    transform: scale(0);
+    visibility: hidden;
+}
+.single-project:hover .info{
+    transform: scale(1);
+    visibility: visible;
+}
+.info h1 {
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.info h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+    padding-top: 5px;
+}
+
+
+/* 08. Contact-Area */
+.contact-area{
+    background-color: #272727;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 34px 0 0 20px;
+}
+.contact-form {
+    flex-basis: 700px;
+    margin: 16px 0;
+}
+.contact-form a{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.contact-form form{}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid transparent;
+    margin: 10px 0;
+    color: black;
+    font-size: 16px;
+    font-family: system-ui;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.contact-form textarea {
+    margin-bottom: 20px;
+}
+.contact-info {
+    flex-basis: 386px;
+}
+.single-contact {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 16px 0;
+}
+.single-contact i {
+    width: 40px;
+    height: 43px;
+    border: 1px solid transparent;
+    line-height: 43px;
+    text-align: center;
+    background-color: #ff9a00;
+    margin: 11px 0;
+    color: #2e2e2e;
+    border-radius: 50%;
+}
+.single-contact h2 {
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-left: 17px;
+    color: white;
+}
+.single-contact h2 span {
+    display: block;
+    text-transform: uppercase;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+/* 09. Footer Area*/ 
+.footer-area {
+    background-color: #1f1f1f;
+}
+.footer-img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 461px;
+}
+.footer-img a {
+    flex-basis: 65px;
+    padding-top: 35px;
+}
+.footer-img a i {
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #272727;
+}
+.footer-img a i:hover{
+    border-color: #ff9a00;
+}
+.copyright {}
+.copyright p {
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    text-transform: capitalize;
+    padding: 15px 0;
+}
+
+
+
+

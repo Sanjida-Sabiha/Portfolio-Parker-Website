@@ -1,0 +1,207 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    .about-content {
+        flex-basis: 520px;
+    }
+    .single-service {
+        flex-basis: 295px;
+    }
+    .single-service i {
+        margin-left: 105px;
+    }
+    .single-resume {
+        flex-basis: 455px;
+    }
+    .single-project {
+        flex-basis: 308px;
+    }
+    .contact-form {
+        flex-basis: 540px;
+    }
+    .contact-info {
+        flex-basis: 375px;
+    }
+    .footer-img {
+        margin-left: 366px;
+    }
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .head {
+        margin: 0;
+    }
+    .head a {
+        font-size: 12px;
+    }
+    .logo {
+        flex-basis: 80px;
+    }
+    .logo a {
+        font-size: 27px;
+    }
+    .menu {
+        flex-basis: 427px;
+    }
+    .menu ul li {
+        padding-left: 19px;
+    }
+    .menu ul li a {
+        font-size: 14px;
+    }
+    
+    .banner {
+        padding: 170px 0 0 0;
+    }
+    .banner-info {
+        flex-basis: 386px;
+    }
+    .banner-info a {
+        font-size: 14px;
+    }
+    .img {
+        flex-basis: 305px;
+    }
+    .about-content {
+        padding-bottom: 40px;
+    }
+    .about-content p {
+        font-size: 18px;
+    }
+    .about-me {
+        flex-basis: 700px;
+        margin-right: 0;
+    }
+    .about-me ul li {
+        font-size: 20px;
+    }
+    .single-service {
+        flex-basis: 345px;
+    }
+    .single-resume {
+        flex-basis: 720px;
+        padding: 40px;
+    }
+    .single-project {
+        flex-basis: 363px;
+    }
+    .contact-form {
+        flex-basis: 480px;
+    }
+    .single-contact h2 {
+        font-size: 17px;
+    }
+    .single-contact i {
+        width: 37px;
+        height: 37px;
+        line-height: 37px;
+    }
+    .contact-form a {
+        font-size: 14px;
+    }
+    .contact-info {
+        flex-basis: 230px;
+    }
+    .footer-img {
+        margin-left: 257px;
+    }
+
+}
+
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 350px;
+    }
+    .head {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin: 0px 0px;
+        padding: 9px 0 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .head a {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .logo a{
+        font-size: 25px;
+    }
+    .menu ul li {
+        padding-left: 38px;
+        padding-bottom: 10px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .banner-area {
+        height: 815px;
+    }
+    .banner {
+        padding: 180px 0 0 0;
+        flex-direction: column;
+    }
+    .banner-info {
+        flex-basis: 290px;
+    }
+    .about-content {
+        flex-basis: 710px;
+        margin-bottom: 30px;
+    }
+    .about-content p {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .about-me {
+        flex-basis: 311px;
+    }
+    .about-me ul li {
+        font-size: 18px;
+    }
+    .single-service i {
+        margin-left: 112px;
+    }
+    .contact {
+        margin: 34px 0 0 0px;
+        flex-direction: column;
+    }
+    .contact-form {
+        flex-basis: 345px;
+    }
+    .footer-img {
+        margin-left: 56px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+}
